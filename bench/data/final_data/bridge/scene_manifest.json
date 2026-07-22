@@ -1,0 +1,2349 @@
+{
+  "namespace": "bridge",
+  "datapack_name": "bridge_scene_pack",
+  "datapack_root": "final_data\\bridge\\datapacks\\bridge_scene_pack",
+  "source_spec": "generated_by_generate_bridge_dataset.py",
+  "scene_count": 30,
+  "scenes": [
+    {
+      "scene_id": "tier_bridge_easy_01",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        36,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_01/setup",
+      "clear_function": "bridge:tier_bridge_easy_01/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:red_concrete",
+      "bridge_region": [
+        45,
+        -57,
+        1210,
+        48,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        37,
+        -57,
+        1210,
+        44,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        49,
+        -57,
+        1210,
+        56,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        37,
+        -57,
+        1201,
+        56,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        37,
+        -57,
+        1214,
+        56,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        37,
+        -57,
+        1214,
+        56,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_02",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        72,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_02/setup",
+      "clear_function": "bridge:tier_bridge_easy_02/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:orange_concrete",
+      "bridge_region": [
+        81,
+        -57,
+        1210,
+        84,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        73,
+        -57,
+        1210,
+        80,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        85,
+        -57,
+        1210,
+        92,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        73,
+        -57,
+        1201,
+        92,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        73,
+        -57,
+        1214,
+        92,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        73,
+        -57,
+        1214,
+        92,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_03",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        108,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_03/setup",
+      "clear_function": "bridge:tier_bridge_easy_03/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:yellow_concrete",
+      "bridge_region": [
+        117,
+        -57,
+        1210,
+        120,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        109,
+        -57,
+        1210,
+        116,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        121,
+        -57,
+        1210,
+        128,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        109,
+        -57,
+        1201,
+        128,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        109,
+        -57,
+        1214,
+        128,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        109,
+        -57,
+        1214,
+        128,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_04",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        144,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_04/setup",
+      "clear_function": "bridge:tier_bridge_easy_04/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:lime_concrete",
+      "bridge_region": [
+        153,
+        -57,
+        1210,
+        156,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        145,
+        -57,
+        1210,
+        152,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        157,
+        -57,
+        1210,
+        164,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        145,
+        -57,
+        1201,
+        164,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        145,
+        -57,
+        1214,
+        164,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        145,
+        -57,
+        1214,
+        164,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_05",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        180,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_05/setup",
+      "clear_function": "bridge:tier_bridge_easy_05/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:cyan_concrete",
+      "bridge_region": [
+        189,
+        -57,
+        1210,
+        192,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        181,
+        -57,
+        1210,
+        188,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        193,
+        -57,
+        1210,
+        200,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        181,
+        -57,
+        1201,
+        200,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        181,
+        -57,
+        1214,
+        200,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        181,
+        -57,
+        1214,
+        200,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_06",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        216,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_06/setup",
+      "clear_function": "bridge:tier_bridge_easy_06/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:blue_concrete",
+      "bridge_region": [
+        225,
+        -57,
+        1210,
+        228,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        217,
+        -57,
+        1210,
+        224,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        229,
+        -57,
+        1210,
+        236,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        217,
+        -57,
+        1201,
+        236,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        217,
+        -57,
+        1214,
+        236,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        217,
+        -57,
+        1214,
+        236,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_07",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        252,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_07/setup",
+      "clear_function": "bridge:tier_bridge_easy_07/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:magenta_concrete",
+      "bridge_region": [
+        261,
+        -57,
+        1210,
+        264,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        253,
+        -57,
+        1210,
+        260,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        265,
+        -57,
+        1210,
+        272,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        253,
+        -57,
+        1201,
+        272,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        253,
+        -57,
+        1214,
+        272,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        253,
+        -57,
+        1214,
+        272,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_08",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        288,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_08/setup",
+      "clear_function": "bridge:tier_bridge_easy_08/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:purple_concrete",
+      "bridge_region": [
+        297,
+        -57,
+        1210,
+        300,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        289,
+        -57,
+        1210,
+        296,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        301,
+        -57,
+        1210,
+        308,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        289,
+        -57,
+        1201,
+        308,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        289,
+        -57,
+        1214,
+        308,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        289,
+        -57,
+        1214,
+        308,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_09",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        324,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_09/setup",
+      "clear_function": "bridge:tier_bridge_easy_09/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:green_concrete",
+      "bridge_region": [
+        333,
+        -57,
+        1210,
+        336,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        325,
+        -57,
+        1210,
+        332,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        337,
+        -57,
+        1210,
+        344,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        325,
+        -57,
+        1201,
+        344,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        325,
+        -57,
+        1214,
+        344,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        325,
+        -57,
+        1214,
+        344,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_easy_10",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        360,
+        -57,
+        1200
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_easy_10/setup",
+      "clear_function": "bridge:tier_bridge_easy_10/clear",
+      "bridge_width": 4,
+      "bridge_length": 4,
+      "bridge_block": "minecraft:pink_concrete",
+      "bridge_region": [
+        369,
+        -57,
+        1210,
+        372,
+        -57,
+        1213
+      ],
+      "left_wall_region": [
+        361,
+        -57,
+        1210,
+        368,
+        -55,
+        1213
+      ],
+      "right_wall_region": [
+        373,
+        -57,
+        1210,
+        380,
+        -55,
+        1213
+      ],
+      "near_bank_region": [
+        361,
+        -57,
+        1201,
+        380,
+        -57,
+        1209
+      ],
+      "far_bank_region": [
+        361,
+        -57,
+        1214,
+        380,
+        -57,
+        1222
+      ],
+      "goal_region": [
+        361,
+        -57,
+        1214,
+        380,
+        -57,
+        1222
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 34,
+        "bridge_width": 4,
+        "bridge_length": 4,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_01",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        36,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_01/setup",
+      "clear_function": "bridge:tier_bridge_medium_01/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:red_concrete",
+      "bridge_region": [
+        45,
+        -57,
+        1270,
+        47,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        37,
+        -57,
+        1270,
+        44,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        48,
+        -57,
+        1270,
+        56,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        37,
+        -57,
+        1261,
+        56,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        37,
+        -57,
+        1275,
+        56,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        37,
+        -57,
+        1275,
+        56,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_02",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        72,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_02/setup",
+      "clear_function": "bridge:tier_bridge_medium_02/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:orange_concrete",
+      "bridge_region": [
+        81,
+        -57,
+        1270,
+        83,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        73,
+        -57,
+        1270,
+        80,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        84,
+        -57,
+        1270,
+        92,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        73,
+        -57,
+        1261,
+        92,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        73,
+        -57,
+        1275,
+        92,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        73,
+        -57,
+        1275,
+        92,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_03",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        108,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_03/setup",
+      "clear_function": "bridge:tier_bridge_medium_03/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:yellow_concrete",
+      "bridge_region": [
+        117,
+        -57,
+        1270,
+        119,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        109,
+        -57,
+        1270,
+        116,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        120,
+        -57,
+        1270,
+        128,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        109,
+        -57,
+        1261,
+        128,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        109,
+        -57,
+        1275,
+        128,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        109,
+        -57,
+        1275,
+        128,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_04",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        144,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_04/setup",
+      "clear_function": "bridge:tier_bridge_medium_04/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:lime_concrete",
+      "bridge_region": [
+        153,
+        -57,
+        1270,
+        155,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        145,
+        -57,
+        1270,
+        152,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        156,
+        -57,
+        1270,
+        164,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        145,
+        -57,
+        1261,
+        164,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        145,
+        -57,
+        1275,
+        164,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        145,
+        -57,
+        1275,
+        164,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_05",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        180,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_05/setup",
+      "clear_function": "bridge:tier_bridge_medium_05/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:cyan_concrete",
+      "bridge_region": [
+        189,
+        -57,
+        1270,
+        191,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        181,
+        -57,
+        1270,
+        188,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        192,
+        -57,
+        1270,
+        200,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        181,
+        -57,
+        1261,
+        200,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        181,
+        -57,
+        1275,
+        200,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        181,
+        -57,
+        1275,
+        200,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_06",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        216,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_06/setup",
+      "clear_function": "bridge:tier_bridge_medium_06/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:blue_concrete",
+      "bridge_region": [
+        225,
+        -57,
+        1270,
+        227,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        217,
+        -57,
+        1270,
+        224,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        228,
+        -57,
+        1270,
+        236,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        217,
+        -57,
+        1261,
+        236,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        217,
+        -57,
+        1275,
+        236,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        217,
+        -57,
+        1275,
+        236,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_07",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        252,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_07/setup",
+      "clear_function": "bridge:tier_bridge_medium_07/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:magenta_concrete",
+      "bridge_region": [
+        261,
+        -57,
+        1270,
+        263,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        253,
+        -57,
+        1270,
+        260,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        264,
+        -57,
+        1270,
+        272,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        253,
+        -57,
+        1261,
+        272,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        253,
+        -57,
+        1275,
+        272,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        253,
+        -57,
+        1275,
+        272,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_08",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        288,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_08/setup",
+      "clear_function": "bridge:tier_bridge_medium_08/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:purple_concrete",
+      "bridge_region": [
+        297,
+        -57,
+        1270,
+        299,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        289,
+        -57,
+        1270,
+        296,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        300,
+        -57,
+        1270,
+        308,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        289,
+        -57,
+        1261,
+        308,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        289,
+        -57,
+        1275,
+        308,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        289,
+        -57,
+        1275,
+        308,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_09",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        324,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_09/setup",
+      "clear_function": "bridge:tier_bridge_medium_09/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:green_concrete",
+      "bridge_region": [
+        333,
+        -57,
+        1270,
+        335,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        325,
+        -57,
+        1270,
+        332,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        336,
+        -57,
+        1270,
+        344,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        325,
+        -57,
+        1261,
+        344,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        325,
+        -57,
+        1275,
+        344,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        325,
+        -57,
+        1275,
+        344,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_medium_10",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        360,
+        -57,
+        1260
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_medium_10/setup",
+      "clear_function": "bridge:tier_bridge_medium_10/clear",
+      "bridge_width": 3,
+      "bridge_length": 5,
+      "bridge_block": "minecraft:pink_concrete",
+      "bridge_region": [
+        369,
+        -57,
+        1270,
+        371,
+        -57,
+        1274
+      ],
+      "left_wall_region": [
+        361,
+        -57,
+        1270,
+        368,
+        -55,
+        1274
+      ],
+      "right_wall_region": [
+        372,
+        -57,
+        1270,
+        380,
+        -55,
+        1274
+      ],
+      "near_bank_region": [
+        361,
+        -57,
+        1261,
+        380,
+        -57,
+        1269
+      ],
+      "far_bank_region": [
+        361,
+        -57,
+        1275,
+        380,
+        -57,
+        1282
+      ],
+      "goal_region": [
+        361,
+        -57,
+        1275,
+        380,
+        -57,
+        1282
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 33,
+        "bridge_width": 3,
+        "bridge_length": 5,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_01",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        36,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_01/setup",
+      "clear_function": "bridge:tier_bridge_hard_01/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:red_concrete",
+      "bridge_region": [
+        46,
+        -57,
+        1330,
+        47,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        37,
+        -57,
+        1330,
+        45,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        48,
+        -57,
+        1330,
+        56,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        37,
+        -57,
+        1321,
+        56,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        37,
+        -57,
+        1336,
+        56,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        37,
+        -57,
+        1336,
+        56,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_02",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        72,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_02/setup",
+      "clear_function": "bridge:tier_bridge_hard_02/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:orange_concrete",
+      "bridge_region": [
+        82,
+        -57,
+        1330,
+        83,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        73,
+        -57,
+        1330,
+        81,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        84,
+        -57,
+        1330,
+        92,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        73,
+        -57,
+        1321,
+        92,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        73,
+        -57,
+        1336,
+        92,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        73,
+        -57,
+        1336,
+        92,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_03",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        108,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_03/setup",
+      "clear_function": "bridge:tier_bridge_hard_03/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:yellow_concrete",
+      "bridge_region": [
+        118,
+        -57,
+        1330,
+        119,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        109,
+        -57,
+        1330,
+        117,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        120,
+        -57,
+        1330,
+        128,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        109,
+        -57,
+        1321,
+        128,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        109,
+        -57,
+        1336,
+        128,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        109,
+        -57,
+        1336,
+        128,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_04",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        144,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_04/setup",
+      "clear_function": "bridge:tier_bridge_hard_04/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:lime_concrete",
+      "bridge_region": [
+        154,
+        -57,
+        1330,
+        155,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        145,
+        -57,
+        1330,
+        153,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        156,
+        -57,
+        1330,
+        164,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        145,
+        -57,
+        1321,
+        164,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        145,
+        -57,
+        1336,
+        164,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        145,
+        -57,
+        1336,
+        164,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_05",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        180,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_05/setup",
+      "clear_function": "bridge:tier_bridge_hard_05/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:cyan_concrete",
+      "bridge_region": [
+        190,
+        -57,
+        1330,
+        191,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        181,
+        -57,
+        1330,
+        189,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        192,
+        -57,
+        1330,
+        200,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        181,
+        -57,
+        1321,
+        200,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        181,
+        -57,
+        1336,
+        200,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        181,
+        -57,
+        1336,
+        200,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_06",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        216,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_06/setup",
+      "clear_function": "bridge:tier_bridge_hard_06/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:blue_concrete",
+      "bridge_region": [
+        226,
+        -57,
+        1330,
+        227,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        217,
+        -57,
+        1330,
+        225,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        228,
+        -57,
+        1330,
+        236,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        217,
+        -57,
+        1321,
+        236,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        217,
+        -57,
+        1336,
+        236,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        217,
+        -57,
+        1336,
+        236,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_07",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        252,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_07/setup",
+      "clear_function": "bridge:tier_bridge_hard_07/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:magenta_concrete",
+      "bridge_region": [
+        262,
+        -57,
+        1330,
+        263,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        253,
+        -57,
+        1330,
+        261,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        264,
+        -57,
+        1330,
+        272,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        253,
+        -57,
+        1321,
+        272,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        253,
+        -57,
+        1336,
+        272,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        253,
+        -57,
+        1336,
+        272,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_08",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        288,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_08/setup",
+      "clear_function": "bridge:tier_bridge_hard_08/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:purple_concrete",
+      "bridge_region": [
+        298,
+        -57,
+        1330,
+        299,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        289,
+        -57,
+        1330,
+        297,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        300,
+        -57,
+        1330,
+        308,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        289,
+        -57,
+        1321,
+        308,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        289,
+        -57,
+        1336,
+        308,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        289,
+        -57,
+        1336,
+        308,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_09",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        324,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_09/setup",
+      "clear_function": "bridge:tier_bridge_hard_09/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:green_concrete",
+      "bridge_region": [
+        334,
+        -57,
+        1330,
+        335,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        325,
+        -57,
+        1330,
+        333,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        336,
+        -57,
+        1330,
+        344,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        325,
+        -57,
+        1321,
+        344,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        325,
+        -57,
+        1336,
+        344,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        325,
+        -57,
+        1336,
+        344,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    },
+    {
+      "scene_id": "tier_bridge_hard_10",
+      "namespace": "bridge",
+      "task_template": "bridge",
+      "origin": [
+        360,
+        -57,
+        1320
+      ],
+      "room_size": [
+        22,
+        8,
+        24
+      ],
+      "setup_function": "bridge:tier_bridge_hard_10/setup",
+      "clear_function": "bridge:tier_bridge_hard_10/clear",
+      "bridge_width": 2,
+      "bridge_length": 6,
+      "bridge_block": "minecraft:pink_concrete",
+      "bridge_region": [
+        370,
+        -57,
+        1330,
+        371,
+        -57,
+        1335
+      ],
+      "left_wall_region": [
+        361,
+        -57,
+        1330,
+        369,
+        -55,
+        1335
+      ],
+      "right_wall_region": [
+        372,
+        -57,
+        1330,
+        380,
+        -55,
+        1335
+      ],
+      "near_bank_region": [
+        361,
+        -57,
+        1321,
+        380,
+        -57,
+        1329
+      ],
+      "far_bank_region": [
+        361,
+        -57,
+        1336,
+        380,
+        -57,
+        1342
+      ],
+      "goal_region": [
+        361,
+        -57,
+        1336,
+        380,
+        -57,
+        1342
+      ],
+      "wall_height_beside_bridge": 3,
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 33,
+        "bridge_width": 2,
+        "bridge_length": 6,
+        "edge_max": 2
+      }
+    }
+  ]
+}

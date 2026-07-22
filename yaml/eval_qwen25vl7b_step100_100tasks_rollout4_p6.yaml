@@ -1,0 +1,52 @@
+entry: lowlevel_batch
+python: /home/azvm/miniconda3/envs/verl/bin/python
+runner:
+  print_command: true
+env:
+  JAVA_HOME: /usr
+  IT_TAKETWO_QUIET_MC_LOGS: 1
+args:
+  config: yaml/instances_train24_keep_running.yaml
+  tasks: assert/ConstructScene/generated/generated_tasks.json
+  task_indices: "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+  episodes_per_task: 4
+  parallel: 6
+  task_mode: single_agent
+  controlled_agent: AgentB
+  atomic_role: elevator_door_approach
+  policy: ai
+  agent_b_provider: openai_compatible
+  agent_b_model: qwen2.5-vl-7b
+  agent_b_api_base_url: http://127.0.0.1:3888/v1
+  agent_b_api_key: EMPTY
+  agent_b_api_key_env:
+  agent_temperature: 0
+  agent_max_tokens: 256
+  agent_api_max_retries: 6
+  agent_api_retry_delay: 1
+  max_steps: 32
+  action_ticks: 4
+  capture_ticks: 2
+  capture_render_frames: 2
+  capture_timeout: 120
+  camera_settle_ticks: 10
+  camera_settle_render_frames: 6
+  pov_eye_height: 1.35
+  pov_forward_offset: 0.25
+  pov_camera_settle_ticks: 16
+  pov_extra_settle_ticks: 8
+  pov_settle_render_frames: 10
+  agent_pov_mode: camera_entity
+  fps: 2
+  write_video: false
+  record_observer: false
+  fail_on_video_error: false
+  hide_hud: true
+  refresh_pack: false
+  randomize_starts: false
+  random_seed:
+  start_position_jitter: 0.4
+  start_yaw_jitter: 45
+  start_pitch_min: 20
+  start_pitch_max: 40
+  output_dir: runs/eval_qwen25vl7b_step100_100tasks_rollout4_p6_20260706_0511

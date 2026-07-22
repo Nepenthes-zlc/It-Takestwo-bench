@@ -1,0 +1,1599 @@
+{
+  "namespace": "multiagent_scene",
+  "datapack_name": "multiagent_scene_pack",
+  "datapack_root": "generated/datapacks/multiagent_scene_pack",
+  "source_spec": "scene_specs/elevator_high_contrast_10.json",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "scene_id": "elevator_contrast10_room_01",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        0,
+        -59,
+        0
+      ],
+      "room_size": [
+        13,
+        6,
+        15
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1,
+        -55,
+        1
+      ],
+      "ceiling_light_region": [
+        4,
+        -54,
+        5,
+        8,
+        -54,
+        9
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        4,
+        -54,
+        5,
+        8,
+        -54,
+        9
+      ],
+      "ceiling_spotlight_ring_region": [
+        1,
+        -54,
+        1,
+        11,
+        -54,
+        13
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_01/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_01/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_01/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_01/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": 2,
+      "plate_lateral_offset": 0,
+      "plate_offset": 3,
+      "pressure_plate_size": 3,
+      "door_region": [
+        6,
+        -58,
+        7,
+        9,
+        -55,
+        7
+      ],
+      "pressure_plate_pos": [
+        6,
+        -58,
+        4
+      ],
+      "pressure_plate_region": [
+        5,
+        -58,
+        3,
+        7,
+        -58,
+        5
+      ],
+      "pressure_plate_positions": [
+        [
+          5,
+          -58,
+          3
+        ],
+        [
+          5,
+          -58,
+          4
+        ],
+        [
+          5,
+          -58,
+          5
+        ],
+        [
+          6,
+          -58,
+          3
+        ],
+        [
+          6,
+          -58,
+          4
+        ],
+        [
+          6,
+          -58,
+          5
+        ],
+        [
+          7,
+          -58,
+          3
+        ],
+        [
+          7,
+          -58,
+          4
+        ],
+        [
+          7,
+          -58,
+          5
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        4,
+        -59,
+        2,
+        8,
+        -59,
+        6
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_02",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        21,
+        -59,
+        0
+      ],
+      "room_size": [
+        15,
+        7,
+        17
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        22,
+        -54,
+        1
+      ],
+      "ceiling_light_region": [
+        27,
+        -53,
+        7,
+        29,
+        -53,
+        9
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        27,
+        -53,
+        7,
+        29,
+        -53,
+        9
+      ],
+      "ceiling_spotlight_ring_region": [
+        22,
+        -53,
+        1,
+        34,
+        -53,
+        15
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_02/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_02/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_02/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_02/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": -2,
+      "plate_lateral_offset": 2,
+      "plate_offset": 5,
+      "pressure_plate_size": 3,
+      "door_region": [
+        25,
+        -58,
+        8,
+        27,
+        -55,
+        8
+      ],
+      "pressure_plate_pos": [
+        30,
+        -58,
+        3
+      ],
+      "pressure_plate_region": [
+        29,
+        -58,
+        2,
+        31,
+        -58,
+        4
+      ],
+      "pressure_plate_positions": [
+        [
+          29,
+          -58,
+          2
+        ],
+        [
+          29,
+          -58,
+          3
+        ],
+        [
+          29,
+          -58,
+          4
+        ],
+        [
+          30,
+          -58,
+          2
+        ],
+        [
+          30,
+          -58,
+          3
+        ],
+        [
+          30,
+          -58,
+          4
+        ],
+        [
+          31,
+          -58,
+          2
+        ],
+        [
+          31,
+          -58,
+          3
+        ],
+        [
+          31,
+          -58,
+          4
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        28,
+        -59,
+        1,
+        32,
+        -59,
+        5
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_03",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        44,
+        -59,
+        0
+      ],
+      "room_size": [
+        17,
+        6,
+        19
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        45,
+        -55,
+        1
+      ],
+      "ceiling_light_region": [
+        50,
+        -54,
+        8,
+        53,
+        -54,
+        10
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        50,
+        -54,
+        8,
+        53,
+        -54,
+        10
+      ],
+      "ceiling_spotlight_ring_region": [
+        45,
+        -54,
+        1,
+        59,
+        -54,
+        17
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_03/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_03/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_03/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_03/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": 4,
+      "plate_lateral_offset": 5,
+      "plate_offset": 2,
+      "pressure_plate_size": 3,
+      "door_region": [
+        55,
+        -58,
+        9,
+        57,
+        -56,
+        9
+      ],
+      "pressure_plate_pos": [
+        57,
+        -58,
+        7
+      ],
+      "pressure_plate_region": [
+        56,
+        -58,
+        6,
+        58,
+        -58,
+        8
+      ],
+      "pressure_plate_positions": [
+        [
+          56,
+          -58,
+          6
+        ],
+        [
+          56,
+          -58,
+          7
+        ],
+        [
+          56,
+          -58,
+          8
+        ],
+        [
+          57,
+          -58,
+          6
+        ],
+        [
+          57,
+          -58,
+          7
+        ],
+        [
+          57,
+          -58,
+          8
+        ],
+        [
+          58,
+          -58,
+          6
+        ],
+        [
+          58,
+          -58,
+          7
+        ],
+        [
+          58,
+          -58,
+          8
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        55,
+        -59,
+        5,
+        59,
+        -59,
+        9
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_04",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        69,
+        -59,
+        0
+      ],
+      "room_size": [
+        14,
+        8,
+        16
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        70,
+        -53,
+        1
+      ],
+      "ceiling_light_region": [
+        73,
+        -52,
+        5,
+        77,
+        -52,
+        9
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        73,
+        -52,
+        5,
+        77,
+        -52,
+        9
+      ],
+      "ceiling_spotlight_ring_region": [
+        70,
+        -52,
+        1,
+        81,
+        -52,
+        14
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_04/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_04/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_04/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_04/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": 0,
+      "plate_lateral_offset": -1,
+      "plate_offset": 5,
+      "pressure_plate_size": 3,
+      "door_region": [
+        75,
+        -58,
+        8,
+        77,
+        -56,
+        8
+      ],
+      "pressure_plate_pos": [
+        75,
+        -58,
+        3
+      ],
+      "pressure_plate_region": [
+        74,
+        -58,
+        2,
+        76,
+        -58,
+        4
+      ],
+      "pressure_plate_positions": [
+        [
+          74,
+          -58,
+          2
+        ],
+        [
+          74,
+          -58,
+          3
+        ],
+        [
+          74,
+          -58,
+          4
+        ],
+        [
+          75,
+          -58,
+          2
+        ],
+        [
+          75,
+          -58,
+          3
+        ],
+        [
+          75,
+          -58,
+          4
+        ],
+        [
+          76,
+          -58,
+          2
+        ],
+        [
+          76,
+          -58,
+          3
+        ],
+        [
+          76,
+          -58,
+          4
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        73,
+        -59,
+        1,
+        77,
+        -59,
+        5
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_05",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        91,
+        -59,
+        0
+      ],
+      "room_size": [
+        18,
+        7,
+        18
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        92,
+        -54,
+        1
+      ],
+      "ceiling_light_region": [
+        97,
+        -53,
+        7,
+        101,
+        -53,
+        10
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        97,
+        -53,
+        7,
+        101,
+        -53,
+        10
+      ],
+      "ceiling_spotlight_ring_region": [
+        92,
+        -53,
+        1,
+        107,
+        -53,
+        16
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_05/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_05/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_05/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_05/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": -4,
+      "plate_lateral_offset": 3,
+      "plate_offset": 2,
+      "pressure_plate_size": 3,
+      "door_region": [
+        94,
+        -58,
+        9,
+        97,
+        -55,
+        9
+      ],
+      "pressure_plate_pos": [
+        103,
+        -58,
+        7
+      ],
+      "pressure_plate_region": [
+        102,
+        -58,
+        6,
+        104,
+        -58,
+        8
+      ],
+      "pressure_plate_positions": [
+        [
+          102,
+          -58,
+          6
+        ],
+        [
+          102,
+          -58,
+          7
+        ],
+        [
+          102,
+          -58,
+          8
+        ],
+        [
+          103,
+          -58,
+          6
+        ],
+        [
+          103,
+          -58,
+          7
+        ],
+        [
+          103,
+          -58,
+          8
+        ],
+        [
+          104,
+          -58,
+          6
+        ],
+        [
+          104,
+          -58,
+          7
+        ],
+        [
+          104,
+          -58,
+          8
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        101,
+        -59,
+        5,
+        105,
+        -59,
+        9
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_06",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        117,
+        -59,
+        0
+      ],
+      "room_size": [
+        16,
+        6,
+        20
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        118,
+        -55,
+        1
+      ],
+      "ceiling_light_region": [
+        123,
+        -54,
+        8,
+        125,
+        -54,
+        11
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        123,
+        -54,
+        8,
+        125,
+        -54,
+        11
+      ],
+      "ceiling_spotlight_ring_region": [
+        118,
+        -54,
+        1,
+        131,
+        -54,
+        18
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_06/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_06/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_06/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_06/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": -3,
+      "plate_lateral_offset": -1,
+      "plate_offset": 3,
+      "pressure_plate_size": 3,
+      "door_region": [
+        120,
+        -58,
+        10,
+        123,
+        -55,
+        10
+      ],
+      "pressure_plate_pos": [
+        124,
+        -58,
+        7
+      ],
+      "pressure_plate_region": [
+        123,
+        -58,
+        6,
+        125,
+        -58,
+        8
+      ],
+      "pressure_plate_positions": [
+        [
+          123,
+          -58,
+          6
+        ],
+        [
+          123,
+          -58,
+          7
+        ],
+        [
+          123,
+          -58,
+          8
+        ],
+        [
+          124,
+          -58,
+          6
+        ],
+        [
+          124,
+          -58,
+          7
+        ],
+        [
+          124,
+          -58,
+          8
+        ],
+        [
+          125,
+          -58,
+          6
+        ],
+        [
+          125,
+          -58,
+          7
+        ],
+        [
+          125,
+          -58,
+          8
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        122,
+        -59,
+        5,
+        126,
+        -59,
+        9
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_07",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        141,
+        -59,
+        0
+      ],
+      "room_size": [
+        19,
+        8,
+        17
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        142,
+        -53,
+        1
+      ],
+      "ceiling_light_region": [
+        148,
+        -52,
+        6,
+        152,
+        -52,
+        9
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        148,
+        -52,
+        6,
+        152,
+        -52,
+        9
+      ],
+      "ceiling_spotlight_ring_region": [
+        142,
+        -52,
+        1,
+        158,
+        -52,
+        15
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_07/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_07/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_07/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_07/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": 1,
+      "plate_lateral_offset": -5,
+      "plate_offset": 3,
+      "pressure_plate_size": 3,
+      "door_region": [
+        150,
+        -58,
+        8,
+        151,
+        -54,
+        8
+      ],
+      "pressure_plate_pos": [
+        145,
+        -58,
+        5
+      ],
+      "pressure_plate_region": [
+        144,
+        -58,
+        4,
+        146,
+        -58,
+        6
+      ],
+      "pressure_plate_positions": [
+        [
+          144,
+          -58,
+          4
+        ],
+        [
+          144,
+          -58,
+          5
+        ],
+        [
+          144,
+          -58,
+          6
+        ],
+        [
+          145,
+          -58,
+          4
+        ],
+        [
+          145,
+          -58,
+          5
+        ],
+        [
+          145,
+          -58,
+          6
+        ],
+        [
+          146,
+          -58,
+          4
+        ],
+        [
+          146,
+          -58,
+          5
+        ],
+        [
+          146,
+          -58,
+          6
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        143,
+        -59,
+        3,
+        147,
+        -59,
+        7
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_08",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        168,
+        -59,
+        0
+      ],
+      "room_size": [
+        15,
+        6,
+        19
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        169,
+        -55,
+        1
+      ],
+      "ceiling_light_region": [
+        173,
+        -54,
+        7,
+        176,
+        -54,
+        10
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        173,
+        -54,
+        7,
+        176,
+        -54,
+        10
+      ],
+      "ceiling_spotlight_ring_region": [
+        169,
+        -54,
+        1,
+        181,
+        -54,
+        17
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_08/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_08/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_08/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_08/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": -1,
+      "plate_lateral_offset": 2,
+      "plate_offset": 3,
+      "pressure_plate_size": 3,
+      "door_region": [
+        172,
+        -58,
+        9,
+        175,
+        -56,
+        9
+      ],
+      "pressure_plate_pos": [
+        177,
+        -58,
+        6
+      ],
+      "pressure_plate_region": [
+        176,
+        -58,
+        5,
+        178,
+        -58,
+        7
+      ],
+      "pressure_plate_positions": [
+        [
+          176,
+          -58,
+          5
+        ],
+        [
+          176,
+          -58,
+          6
+        ],
+        [
+          176,
+          -58,
+          7
+        ],
+        [
+          177,
+          -58,
+          5
+        ],
+        [
+          177,
+          -58,
+          6
+        ],
+        [
+          177,
+          -58,
+          7
+        ],
+        [
+          178,
+          -58,
+          5
+        ],
+        [
+          178,
+          -58,
+          6
+        ],
+        [
+          178,
+          -58,
+          7
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        175,
+        -59,
+        4,
+        179,
+        -59,
+        8
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_09",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        191,
+        -59,
+        0
+      ],
+      "room_size": [
+        17,
+        8,
+        15
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        192,
+        -53,
+        1
+      ],
+      "ceiling_light_region": [
+        198,
+        -52,
+        5,
+        200,
+        -52,
+        9
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        198,
+        -52,
+        5,
+        200,
+        -52,
+        9
+      ],
+      "ceiling_spotlight_ring_region": [
+        192,
+        -52,
+        1,
+        206,
+        -52,
+        13
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_09/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_09/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_09/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_09/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": -2,
+      "plate_lateral_offset": -3,
+      "plate_offset": 4,
+      "pressure_plate_size": 3,
+      "door_region": [
+        196,
+        -58,
+        7,
+        198,
+        -56,
+        7
+      ],
+      "pressure_plate_pos": [
+        196,
+        -58,
+        3
+      ],
+      "pressure_plate_region": [
+        195,
+        -58,
+        2,
+        197,
+        -58,
+        4
+      ],
+      "pressure_plate_positions": [
+        [
+          195,
+          -58,
+          2
+        ],
+        [
+          195,
+          -58,
+          3
+        ],
+        [
+          195,
+          -58,
+          4
+        ],
+        [
+          196,
+          -58,
+          2
+        ],
+        [
+          196,
+          -58,
+          3
+        ],
+        [
+          196,
+          -58,
+          4
+        ],
+        [
+          197,
+          -58,
+          2
+        ],
+        [
+          197,
+          -58,
+          3
+        ],
+        [
+          197,
+          -58,
+          4
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        194,
+        -59,
+        1,
+        198,
+        -59,
+        5
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    },
+    {
+      "scene_id": "elevator_contrast10_room_10",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "multiagent_scene",
+      "task_template": "elevator_hold_door",
+      "origin": [
+        216,
+        -59,
+        0
+      ],
+      "room_size": [
+        18,
+        6,
+        16
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        217,
+        -55,
+        1
+      ],
+      "ceiling_light_region": [
+        223,
+        -54,
+        6,
+        225,
+        -54,
+        8
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        223,
+        -54,
+        6,
+        225,
+        -54,
+        8
+      ],
+      "ceiling_spotlight_ring_region": [
+        217,
+        -54,
+        1,
+        232,
+        -54,
+        14
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "setup_function": "multiagent_scene:elevator_contrast10_room_10/setup",
+      "place_command_blocks_function": "multiagent_scene:elevator_contrast10_room_10/place_command_blocks",
+      "tick_function": "multiagent_scene:elevator_contrast10_room_10/tick",
+      "clear_function": "multiagent_scene:elevator_contrast10_room_10/clear",
+      "divider_axis": "z",
+      "door_lateral_offset": 0,
+      "plate_lateral_offset": -6,
+      "plate_offset": 5,
+      "pressure_plate_size": 3,
+      "door_region": [
+        223,
+        -58,
+        8,
+        226,
+        -55,
+        8
+      ],
+      "pressure_plate_pos": [
+        219,
+        -58,
+        3
+      ],
+      "pressure_plate_region": [
+        218,
+        -58,
+        2,
+        220,
+        -58,
+        4
+      ],
+      "pressure_plate_positions": [
+        [
+          218,
+          -58,
+          2
+        ],
+        [
+          218,
+          -58,
+          3
+        ],
+        [
+          218,
+          -58,
+          4
+        ],
+        [
+          219,
+          -58,
+          2
+        ],
+        [
+          219,
+          -58,
+          3
+        ],
+        [
+          219,
+          -58,
+          4
+        ],
+        [
+          220,
+          -58,
+          2
+        ],
+        [
+          220,
+          -58,
+          3
+        ],
+        [
+          220,
+          -58,
+          4
+        ]
+      ],
+      "pressure_plate_block": "minecraft:stone_pressure_plate",
+      "plate_pad_block": "minecraft:white_concrete",
+      "plate_pad_region": [
+        217,
+        -59,
+        1,
+        221,
+        -59,
+        5
+      ],
+      "floor_block": "minecraft:white_concrete",
+      "wall_block": "minecraft:white_concrete",
+      "divider_block": "minecraft:white_concrete",
+      "elevator_block": "minecraft:black_concrete",
+      "visual_contrast": {
+        "floor_block": "minecraft:white_concrete",
+        "plate_pad_block": "minecraft:white_concrete",
+        "pressure_plate_block": "minecraft:stone_pressure_plate",
+        "wall_block": "minecraft:white_concrete",
+        "elevator_block": "minecraft:black_concrete",
+        "plate_floor_distance": 187.68,
+        "plate_pad_distance": 187.68,
+        "pad_floor_distance": 0.0,
+        "door_wall_distance": 385.11,
+        "door_plate_distance": 197.52,
+        "plate_pad_luminance_gap": 108.94,
+        "door_wall_luminance_gap": 224.0
+      }
+    }
+  ]
+}

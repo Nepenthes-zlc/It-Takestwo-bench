@@ -1,0 +1,266 @@
+parallel: 24
+instances:
+  - name: instance-train-01
+    root: ../env/instance-train-01
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25690
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-02
+    root: ../env/instance-train-02
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25691
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-03
+    root: ../env/instance-train-03
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25692
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-04
+    root: ../env/instance-train-04
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25693
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-05
+    root: ../env/instance-train-05
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25694
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-06
+    root: ../env/instance-train-06
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25695
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-07
+    root: ../env/instance-train-07
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25696
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-08
+    root: ../env/instance-train-08
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25697
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-09
+    root: ../env/instance-train-09
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25698
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-10
+    root: ../env/instance-train-10
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25699
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-11
+    root: ../env/instance-train-11
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25700
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-12
+    root: ../env/instance-train-12
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25701
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-13
+    root: ../env/instance-train-13
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25702
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-14
+    root: ../env/instance-train-14
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25703
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-15
+    root: ../env/instance-train-15
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25704
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-16
+    root: ../env/instance-train-16
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25705
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-17
+    root: ../env/instance-train-17
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25706
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-18
+    root: ../env/instance-train-18
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25707
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-19
+    root: ../env/instance-train-19
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25708
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-20
+    root: ../env/instance-train-20
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25709
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-21
+    root: ../env/instance-train-21
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25710
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-22
+    root: ../env/instance-train-22
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25711
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-23
+    root: ../env/instance-train-23
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25712
+    use_puppet: true
+    keep_running: true
+  - name: instance-train-24
+    root: ../env/instance-train-24
+    device: egl0
+    ready_timeout: 600
+    puppet_host: 127.0.0.1
+    puppet_port: 0
+    puppet_timeout: 180
+    tickgate_host: 127.0.0.1
+    tickgate_port: 25713
+    use_puppet: true
+    keep_running: true

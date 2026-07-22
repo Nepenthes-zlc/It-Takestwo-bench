@@ -1,0 +1,11 @@
+# Auto-generated batch clear
+function multiagent_scene:elevator_contrast10_room_01/clear
+function multiagent_scene:elevator_contrast10_room_02/clear
+function multiagent_scene:elevator_contrast10_room_03/clear
+function multiagent_scene:elevator_contrast10_room_04/clear
+function multiagent_scene:elevator_contrast10_room_05/clear
+function multiagent_scene:elevator_contrast10_room_06/clear
+function multiagent_scene:elevator_contrast10_room_07/clear
+function multiagent_scene:elevator_contrast10_room_08/clear
+function multiagent_scene:elevator_contrast10_room_09/clear
+function multiagent_scene:elevator_contrast10_room_10/clear

@@ -1,0 +1,74 @@
+experiment_name_prefix: qwen25vl7b_single_agent_door_difficulty24_b8n4_24inst_2chunk_200step_grpo_512x288_r6144
+env:
+  MODEL_PATH: /local_nvme/guanyiming/models/Qwen/Qwen2.5-VL-7B-Instruct
+  TASK_MODE: single_agent
+  RUN_GROUP: single_agent/pressure_plate
+  PROJECT_NAME: it_taketwo_single_agent_door_verl
+  TRAIN_FILE: data/verl_minecraft/single_agent/pressure_plate/door_agentb_difficulty24_20260630/train.parquet
+  VAL_FILE: data/verl_minecraft/single_agent/pressure_plate/door_agentb_difficulty24_20260630/val.parquet
+  IT_TAKETWO_STEP_TIMING: 1
+  TRAIN_SIZE: 24
+  VAL_SIZE: 24
+  SHUFFLE_TASKS: 1
+  TOTAL_EPOCHS: 200
+  TOTAL_TRAINING_STEPS: 200
+  SAVE_FREQ: 50
+  TEST_FREQ: -1
+  TRAIN_BATCH_SIZE: 8
+  PPO_MINI_BATCH_SIZE: 8
+  ROLLOUT_N: 4
+  ADV_ESTIMATOR: grpo
+  ENTROPY_COEFF: 0.001
+  USE_KL_LOSS: 'True'
+  KL_LOSS_COEF: 0.001
+  NGPUS_PER_NODE: 4
+  TRAIN_INSTANCE_COUNT: 24
+  AGENT_WORKERS: 16
+  IT_TAKETWO_INSTANCE_LOCK_TIMEOUT: 1800
+  IT_TAKETWO_GEN_CHUNKS: 2
+  PERSISTENT_MINECRAFT: 1
+  IT_TAKETWO_PRESPAWNED_AGENTS: 1
+  PREWARM_MINECRAFT: 1
+  IT_TAKETWO_REFRESH_PACK: 1
+  PREWARM_PARALLEL: 8
+  PREWARM_RETRIES: 3
+  PREWARM_RETRY_DELAY: 5
+  PREWARM_READY_TIMEOUT: 600
+  PREWARM_PUPPET_TIMEOUT: 180
+  AGENT_LOOP_CONFIG: configs/verl_minecraft_agent_loop_7b_n4_single_agent.yaml
+  SINGLE_AGENT_ATOMIC_AGENTS: AgentB
+  SINGLE_AGENT_DEFAULT: AgentB
+  FIXED_TEAMMATE_ACTION: wait
+  USE_VLM_IMAGES: 1
+  MAX_PROMPT_LENGTH: 3072
+  MAX_RESPONSE_LENGTH: 6144
+  VLM_MAX_PIXELS: 196608
+  IT_TAKETWO_HISTORY_WINDOW_IMAGES: 0
+  IT_TAKETWO_HISTORY_MAX_TOKENS: 3072
+  IT_TAKETWO_IMAGE_MAX_WIDTH: 512
+  IT_TAKETWO_IMAGE_MAX_HEIGHT: 288
+  IT_TAKETWO_RESTART_ON_ROLLOUT_ERROR: 1
+  IT_TAKETWO_CAPTURE_TIMEOUT: 20
+  IT_TAKETWO_RESTART_ON_SCREENSHOT_TIMEOUT: 1
+  ROLLOUT_GPU_MEMORY_UTILIZATION: 0.25
+  ROLLOUT_MAX_NUM_SEQS: 2
+  PPO_MAX_TOKEN_LEN_PER_GPU: 12288
+snapshot_files:
+- scripts/train_qwen25vl7b_single_agent_door_gpu24_b8n4_200step.sh
+- scripts/train_qwen25vl7b_n4_100step.sh
+- scripts/run_verl_online_rl.sh
+- scripts/prepare_verl_minecraft_data.sh
+- scripts/prepare_train_instances.sh
+- scripts/prewarm_train_instances.py
+- yaml/train_qwen25vl7b_single_agent_door_gpu24_b8n4_200step.yaml
+- yaml/lowlevel_train_episode.yaml
+- yaml/instance_train_single.yaml
+- configs/verl_minecraft_agent_loop_7b_n4_single_agent.yaml
+- mc_rollout/launch.py
+- mc_rollout/rollout.py
+- mc_rollout/completion.py
+- verl_adapter/minecraft_agent_loop.py
+- verl_adapter/mc_env.py
+- verl_adapter/build_dataset.py
+- scripts/build_difficulty24_dataset.py
+- yaml/train_qwen25vl7b_single_agent_door_gpu24_b8n4_200step_difficulty24.yaml

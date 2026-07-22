@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+
+# Benchmark outputs and transient runtime state
+bench/runs/
+bench/.stage_*.log
+bench/.watchdog.log
+bench/.watchdog_stage
+
+# Portable distribution artifacts can be large and are rebuilt/downloaded separately.
+bench/portable/dist/
+
+# Generated Minecraft train/eval instances; keep only the base instance template.
+env/instance-train-*/
+env/*-eval-*/
+env/*-resume-*/
+env/*-tail-*/
+env/*-tpm-*/
+env/truck-init-*/
+
+# Local editor/system noise
+.DS_Store
+.vscode/

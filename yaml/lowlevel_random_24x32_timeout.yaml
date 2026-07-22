@@ -1,0 +1,24 @@
+entry: lowlevel_batch
+python: /home/azvm/miniconda3/envs/verl/bin/python
+env:
+  IT_TAKETWO_QUIET_MC_LOGS: "1"
+args:
+  config: yaml/instances_train24_keep_running.yaml
+  tasks: assert/ConstructScene/generated/generated_tasks.json
+  task_indices: "73"
+  episodes_per_task: 24
+  parallel: 24
+  policy: random
+  max_steps: 32
+  action_ticks: 4
+  output_dir: runs/random_24x32_timeout
+  task_mode: single_agent
+  controlled_agent: AgentB
+  atomic_role: elevator_door_approach
+  agent_pov_mode: camera_entity
+  record_observer: false
+  write_video: false
+  refresh_pack: false
+  random_seed: 20260702
+  fail_fast: false
+  hide_hud: true

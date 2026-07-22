@@ -1,0 +1,11 @@
+# Auto-generated batch setup
+function multiagent_scene:elevator_contrast10_room_01/setup
+function multiagent_scene:elevator_contrast10_room_02/setup
+function multiagent_scene:elevator_contrast10_room_03/setup
+function multiagent_scene:elevator_contrast10_room_04/setup
+function multiagent_scene:elevator_contrast10_room_05/setup
+function multiagent_scene:elevator_contrast10_room_06/setup
+function multiagent_scene:elevator_contrast10_room_07/setup
+function multiagent_scene:elevator_contrast10_room_08/setup
+function multiagent_scene:elevator_contrast10_room_09/setup
+function multiagent_scene:elevator_contrast10_room_10/setup
